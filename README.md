@@ -111,6 +111,6 @@ curl -X GET http://localhost:8080/api/stations
 # Créer une nouvelle station
 curl -X POST http://localhost:8080/api/stations \
   -H "Content-Type: application/json" \
-  -d '{"nom": "Station Centre", "localisation": "Centre-ville"}'
+  -d '{"nom": "Station Centre", "adresse": "Centre-ville","ville": "ville"}'
 
 ```
