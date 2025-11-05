@@ -31,7 +31,8 @@ backend/
 │ └── configuration/ # Configuration
 │ ├── JAXRSConfiguration.java
 │ └── CorsFilter.java
-├── persistence.xml # Configuration JPA
+│ ├── resources/
+│ │ ├── persistence.xml # Configuration JPA
 └── pom.xml # Dépendances Maven
 ```
 
